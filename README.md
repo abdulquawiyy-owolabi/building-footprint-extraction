@@ -8,10 +8,7 @@ The project explores the application of computer vision techniques to remote sen
 
 The implementation uses NAIP aerial imagery and Overture Maps building data as a geospatial reference, exploring two deep learning approaches:
 
-- **Faster R-CNN:** Object detection.
 - **U-Net:** Semantic segmentation.
-
-The work originated from a textbook-based practical exercise and was used to develop and explore a geospatial computer vision workflow.
 
 ## Study Area and Data
 
@@ -44,7 +41,7 @@ The U-Net model achieved the following validation results at epoch 15:
 | Precision | 0.9488 |
 | Recall | 0.9472 |
 
-These values represent results from the exercise's validation setup and should not be interpreted as independent performance benchmarks across other geographical areas.
+These values represent results from the validation setup and should not be interpreted as independent performance benchmarks across other geographical areas.
 
 ## Results
 
@@ -64,11 +61,9 @@ Building footprint extraction from aerial imagery has applications in:
 
 ## Limitations
 
-This implementation was based on a textbook practical exercise and a relatively small dataset. It was not independently developed or validated as a production-ready building detection system.
+This implementation was based on a relatively small dataset. 
 
-The work does not demonstrate construction-stage classification or temporal monitoring of building completion.
-
-Further work would require independently prepared datasets, additional validation and testing across different geographical environments.
+Further work would require independently prepared datasets, additional validation, and testing across different geographical environments.
 
 ## Future Work
 
@@ -82,5 +77,4 @@ Potential extensions include:
 
 ## Acknowledgements
 
-This implementation was informed by the relevant textbook exercise. Full bibliographic details and applicable data and code attributions should be provided here.
-
+Wu, Q. (2026). GeoAI with Python: A Practical Guide to Open-Source Geospatial AI. Independently published. PDF edition ISBN 979-8993859729; Print edition ISBN 979-8253507414
